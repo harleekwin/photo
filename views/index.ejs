@@ -10,23 +10,21 @@
 </head>
 
 <body>
-  <div class="container">
-        <h1>myapp</h1>
-        <div>
-          <a href="/">Home</a> /
-          <a href="/about">About</a>
-        </div>
-        <hr />
-        
-        <ui-view></ui-view>
-  </div>
+  <div>
+        <a ui-sref="Home">Home</a>
+      </div>
 
-  <script src="/bower_components/angular/angular.min.js"></script>
-  <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-  <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
-  <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
-  <script src="/bower_components/angular-touch/angular-touch.min.js"></script>
-  <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <ui-view></ui-view>
+
+
+  <script src="/scripts/jquery/dist/jquery.min.js"></script>
+  <script src="/scripts/filepicker-js-bower/filepicker.min.js"></script>
+  <script src="/scripts/angular/angular.min.js"></script>
+  <script src="/scripts/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/scripts/angular-resource/angular-resource.min.js"></script>
+  <script src="/scripts/angular-animate/angular-animate.min.js"></script>
+  <script src="/scripts/angular-touch/angular-touch.min.js"></script>
+  <script src="/scripts/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
 
   <script src="/ngApp/app.js"></script>
   <script src="/ngApp/controllers/controllers.js"></script>
